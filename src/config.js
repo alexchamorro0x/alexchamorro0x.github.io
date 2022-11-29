@@ -1,22 +1,22 @@
 module.exports = {
   siteTitle: 'Alex Chamorro',
   siteDescription:
-    'Alex Chamorro is an incoming Software Developer, based in India, who loves learning new things and helping tech beginners.',
+    'Alex Chamorro is an incoming Software Developer, based in United States, who loves learning new things and helping tech beginners.',
   siteKeywords:
-    'Alex Chamorro, Yashita, Namdeo, yashitanamdeo, software engineer, web developer, javascript, python, java, svvv, indore',
-  siteUrl: 'https://yashitanamdeo.github.io/',
+    'Alex Chamorro, Alex, Chamorro, alexchamorro, software engineer, web developer, javascript, react, redux, typescript',
+  siteUrl: 'https://alexchamorro0x.github.io/',
   siteLanguage: 'en_US',
   googleAnalyticsID: 'UA-45666519-2',
   googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',
   name: 'Alex Chamorro',
-  location: 'Indore, India',
-  email: 'yashita.namdeo2000@gmail.com',
-  github: 'https://github.com/yashitanamdeo',
+  location: 'Fort Myers, FL',
+  email: 'oriondigitalconsulting@gmail.com',
+  github: 'https://github.com/alexchamorro0x',
   twitterHandle: '@',
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/yashitanamdeo',
+      url: 'https://github.com/alexchamorro0x',
     },
     {
       name: 'Linkedin',
