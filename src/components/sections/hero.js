@@ -31,6 +31,7 @@ const StyledHeroSection = styled.section`
   h3 {
     margin-top: 10px;
     color: var(--slate);
+    font-size: 40px;
     line-height: 0.9;
   }
 
@@ -60,14 +61,13 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Alex Chamorro.</h2>;
-  const three = <h3 className="big-heading">I build things for the web.</h3>;
+  const three = <h3 className="big-heading">I like to craft solid and scalable frontend products with great user experiences.</h3>;
   const four = (
     <>
       <p>
-        I’m a software engineer specializing in building (and occasionally designing) exceptional
-        digital experiences.
+        I love dig into challenges and overcome them with technology.
+        I learn from mistakes, refine my goals, and drive myself to become a better person.
       </p>
-      <p>I love dig into challenges and overcome them with technology!</p>
     </>
   );
   const five = (
