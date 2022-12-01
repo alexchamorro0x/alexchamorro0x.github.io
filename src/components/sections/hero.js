@@ -3,7 +3,7 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
 import { navDelay, loaderDelay } from '@utils';
 import { usePrefersReducedMotion } from '@hooks';
-// import { email } from '@config';
+import { email } from '@config';
 
 const StyledHeroSection = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
@@ -65,7 +65,7 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I love dig into challenges and overcome them with technology.
+        I love dig into challenges and overcome them with technology. 
         I learn from mistakes, refine my goals, and drive myself to become a better person.
       </p>
     </>
@@ -73,7 +73,7 @@ const Hero = () => {
   const five = (
     <a
       className="email-link"
-      href="mailto:alexochamorro@gmail.com"
+      href={`mailto:${email}`}
       target="_blank"
       rel="noreferrer"
     >

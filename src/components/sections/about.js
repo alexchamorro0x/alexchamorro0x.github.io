@@ -125,7 +125,20 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = [
+    'JavaScript (ES6+)',
+    'TypeScript',
+    'React',
+    'Redux',
+    'Next.js',
+    'Tailwind CSS',
+    'Material UI',
+    'Bootstrap',
+    'Node.js',
+    'Express.js',
+    'MySQL',
+    'MongoDB',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,32 +148,15 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hello! My name is Alex Chamorro and I am a front-end web developer with 5+ years of
+              working experience in sales, customer support, social media, and management. I combine
+              my management expertise with technical skills and fully commit to consistency, meeting
+              deadlines, and utilizing all available resources to achieve results. I enjoy creating
+              beautiful, accessible, and responsive websites using HTML, CSS, Tailwind, Sass, SCSS,
+              Vanilla JavaScript, and React. Effective use of time, problem-solving, and
+              communication skills help me show a positive attitude in complex situations, and my
+              desire to learn quickly adapts me to changing situations.
             </p>
-
-            <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
-            </p>
-
-            <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
-            </p>
-
             <p>Here are a few technologies I’ve been working with recently:</p>
           </div>
 

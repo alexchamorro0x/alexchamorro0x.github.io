@@ -5,7 +5,7 @@
   alexchamorro0x.github.io - V1
 </h1>
 <p align="center">
-  The fourth iteration of <a href="https://alexchamorro0x.github.io" target="_blank">alexchamorro0x.github.io</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://pages.github.com/" target="_blank">Github Pages</a>
+  The first iteration of <a href="https://alexchamorro0x.github.io" target="_blank">alexchamorro0x.github.io</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://pages.github.com/" target="_blank">Github Pages</a>
 </p>
 
 ![demo](https://raw.githubusercontent.com/alexchamorro0x/alexchamorro0x.github.io/main/src/images/demo.png)
