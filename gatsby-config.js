@@ -5,9 +5,9 @@ module.exports = {
     title: 'Alex Chamorro',
     description:
       'Alex Chamorro is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
-    siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
+    siteUrl: 'https://alexchamorro0x.github.io', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@bchiang7',
+    twitterUsername: '@alexchamorro',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
