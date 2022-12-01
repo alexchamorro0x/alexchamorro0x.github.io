@@ -13,4 +13,4 @@ company: ''
 showInProjects: true
 ---
 
-Chat application built with NodeJS
+Chat application built with Node.js and Nest.js.
