@@ -149,8 +149,9 @@ const About = () => {
           <div>
             <p>
               Hello! My name is Alex Chamorro and I am a front-end web developer with 5+ years of
-              working experience in sales, customer support, social media, and management. I combine
-              my management expertise with technical skills and fully commit to consistency, meeting
+              working experience in sales, customer support, social media, and management.
+            </p>
+            <p>I combine my management expertise with technical skills and fully commit to consistency, meeting
               deadlines, and utilizing all available resources to achieve results. I enjoy creating
               beautiful, accessible, and responsive websites using HTML, CSS, Tailwind, Sass, SCSS,
               Vanilla JavaScript, and React. Effective use of time, problem-solving, and
