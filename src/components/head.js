@@ -21,13 +21,14 @@ const Head = ({ title, description, image }) => {
             twitterUsername
             first_name: first_name
             last_name: last_name
+            keywords: keywords
           }
         }
       }
     `,
   );
 
-  const { defaultTitle, defaultDescription, siteUrl, defaultImage, twitterUsername, first_name, last_name } =
+  const { defaultTitle, defaultDescription, siteUrl, defaultImage, twitterUsername, first_name, last_name, keywords } =
     site.siteMetadata;
 
   const seo = {
@@ -37,6 +38,7 @@ const Head = ({ title, description, image }) => {
     url: `${siteUrl}${pathname}`,
     first_name: first_name,
     last_name: last_name,
+    keywords: keywords,
   };
 
   return (
@@ -46,7 +48,7 @@ const Head = ({ title, description, image }) => {
       <meta name="profile:first_name" content={seo.first_name} />
       <meta name="profile:last_name" content={seo.last_name} />
       <meta name="author" content={seo.title} />
-      <meta name="keywords" content={seo.title} />
+      <meta name="keywords" content={seo.keywords} />
       <meta name="description" content={seo.description} />
       <meta name="image" content={seo.image} />
 
