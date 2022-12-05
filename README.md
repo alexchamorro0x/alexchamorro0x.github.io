@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Logo" src="https://raw.githubusercontent.com/alexchamorro0x/alexchamorro0x.github.io/main/src/images/logo.png" width="100" />
+  <img alt="Alex Chamorro Logo" src="https://raw.githubusercontent.com/alexchamorro0x/alexchamorro0x.github.io/main/src/images/logo.png" width="100" />
 </div>
 <h1 align="center">
   alexchamorro0x.github.io - V1
@@ -8,7 +8,7 @@
   The first iteration of <a href="https://alexchamorro0x.github.io" target="_blank">alexchamorro0x.github.io</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://pages.github.com/" target="_blank">Github Pages</a>
 </p>
 
-![demo](https://raw.githubusercontent.com/alexchamorro0x/alexchamorro0x.github.io/main/src/images/demo.png)
+![Alex Chamorro](https://raw.githubusercontent.com/alexchamorro0x/alexchamorro0x.github.io/main/src/images/alex_chamorro_screen.png)
 
 ## 🚨 Forking this repo (please read!)
 

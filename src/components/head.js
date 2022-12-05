@@ -19,13 +19,15 @@ const Head = ({ title, description, image }) => {
             siteUrl
             defaultImage: image
             twitterUsername
+            first_name: first_name
+            last_name: last_name
           }
         }
       }
     `,
   );
 
-  const { defaultTitle, defaultDescription, siteUrl, defaultImage, twitterUsername } =
+  const { defaultTitle, defaultDescription, siteUrl, defaultImage, twitterUsername, first_name, last_name } =
     site.siteMetadata;
 
   const seo = {
@@ -33,18 +35,25 @@ const Head = ({ title, description, image }) => {
     description: description || defaultDescription,
     image: `${siteUrl}${image || defaultImage}`,
     url: `${siteUrl}${pathname}`,
+    first_name: first_name,
+    last_name: last_name,
   };
 
   return (
     <Helmet title={title} defaultTitle={seo.title} titleTemplate={`%s | ${defaultTitle}`}>
       <html lang="en" />
 
+      <meta name="profile:first_name" content={seo.first_name} />
+      <meta name="profile:last_name" content={seo.last_name} />
+      <meta name="author" content={seo.title} />
+      <meta name="keywords" content={seo.title} />
       <meta name="description" content={seo.description} />
       <meta name="image" content={seo.image} />
 
       <meta property="og:title" content={seo.title} />
       <meta property="og:description" content={seo.description} />
       <meta property="og:image" content={seo.image} />
+      <meta property="og:image:alt" content={seo.title} />
       <meta property="og:url" content={seo.url} />
       <meta property="og:type" content="website" />
 

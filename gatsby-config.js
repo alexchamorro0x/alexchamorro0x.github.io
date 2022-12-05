@@ -2,6 +2,8 @@ const config = require('./src/config');
 
 module.exports = {
   siteMetadata: {
+    first_name: 'Alex',
+    last_name: 'Chamorro',
     title: 'Alex Chamorro',
     description:
       'Alex Chamorro is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',

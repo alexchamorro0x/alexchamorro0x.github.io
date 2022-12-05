@@ -16,7 +16,7 @@ const StyledHeroSection = styled.section`
     padding-bottom: 10vh;
   }
 
-  h1 {
+  p.name {
     margin: 0 0 30px 4px;
     color: var(--green);
     font-family: var(--font-mono);
@@ -28,7 +28,7 @@ const StyledHeroSection = styled.section`
     }
   }
 
-  h3 {
+  h2 {
     margin-top: 10px;
     color: var(--slate);
     font-size: 40px;
@@ -59,9 +59,9 @@ const Hero = () => {
     return () => clearTimeout(timeout);
   }, []);
 
-  const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Alex Chamorro.</h2>;
-  const three = <h3 className="big-heading">I like to craft solid and scalable frontend products with great user experiences.</h3>;
+  const one = <p className='name'>Hi, my name is</p>;
+  const two = <h1 className="big-heading">Alex Chamorro</h1>;
+  const three = <h2 className="big-heading">I like to craft solid and scalable frontend products with great user experiences.</h2>;
   const four = (
     <>
       <p>
